@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/eduparent">
+
+        <TextView
+            android:id="@+id/eduTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dp"
+            android:text="Education"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:id="@+id/lineLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eduTitle"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <pl.hypeapp.materialtimelineview.MaterialTimelineView
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@android:color/transparent"
+                app:timeline_bottom_radio_color="@color/selection"
+                app:timeline_line_color="@android:color/darker_gray"
+                app:timeline_position="first"
+                app:timeline_top_radio_color="@color/selection"
+                app:timeline_type="line" />
+
+            <pl.hypeapp.materialtimelineview.MaterialTimelineView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:background="@android:color/transparent"
+                app:timeline_bottom_radio_color="@color/selection"
+                app:timeline_position="middle"
+                app:timeline_top_radio_color="@color/selection"
+                app:timeline_type="item">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorAccent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@android:color/transparent"
+                            android:text="B.Tech (Bachelor of Technology)\nJalpaiguri Government Engineering College"
+                            android:textColor="#fff"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@android:color/transparent"
+                            android:text="2017 - 2021, Current CGPA 6.00/10"
+                            android:textColor="#fff" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </pl.hypeapp.materialtimelineview.MaterialTimelineView>
+
+
+            <pl.hypeapp.materialtimelineview.MaterialTimelineView
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_height="50dp"
+                app:timeline_bottom_radio_color="@color/selection"
+                app:timeline_line_color="@android:color/darker_gray"
+                app:timeline_position="middle"
+                app:timeline_top_radio_color="@color/selection"
+                app:timeline_type="line" />
+
+            <pl.hypeapp.materialtimelineview.MaterialTimelineView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:background="@android:color/transparent"
+                app:timeline_bottom_radio_color="@color/selection"
+                app:timeline_position="middle"
+                app:timeline_top_radio_color="@color/selection"
+                app:timeline_type="item">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/colorAccent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@android:color/transparent"
+                            android:text="High School (Science),\nShree Jain Vidyalaya, Kolkata\n(Affiliated to WBCHSE)"
+                            android:textColor="#fff"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@android:color/transparent"
+                            android:text="2016, Aggregate: 416/500"
+                            android:textColor="#fff" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </pl.hypeapp.materialtimelineview.MaterialTimelineView>
+
+
+            <pl.hypeapp.materialtimelineview.MaterialTimelineView
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_height="50dp"
+                app:timeline_bottom_radio_color="@color/selection"
+                app:timeline_line_color="@android:color/darker_gray"
+                app:timeline_position="middle"
+                app:timeline_top_radio_color="@color/selection"
+                app:timeline_type="line" />
+
+            <pl.hypeapp.materialtimelineview.MaterialTimelineView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:background="@android:color/transparent"
+                app:timeline_bottom_radio_color="@color/selection"
+                app:timeline_position="middle"
+                app:timeline_top_radio_color="@color/selection"
+                app:timeline_type="item">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/colorAccent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@android:color/transparent"
+                            android:text="Secondary School,\nShree Jain Vidyalaya for Boys, Howrah\n(Affiliated to WBBSE)"
+                            android:textColor="#fff"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:layout_margin="10dp"
+                            android:text="2014, Aggregate: 565/700"
+                            android:textColor="#fff" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </pl.hypeapp.materialtimelineview.MaterialTimelineView>
+
+            <pl.hypeapp.materialtimelineview.MaterialTimelineView
+                android:id="@+id/line4"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:timeline_bottom_radio_color="@color/selection"
+                app:timeline_line_color="@android:color/darker_gray"
+                app:timeline_position="last"
+                app:timeline_top_radio_color="@color/selection"
+                app:timeline_type="line" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

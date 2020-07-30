@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Portfolio090</string>
+    <string name="name">Sanskar \nUpadhyay</string>
+    <string name="subhead">Android Developer intern at applex.in | Final Year CSE Undergrad</string>
+    <string name="desc">
+        Hi there 👋\nI am Sanskar Upadhyay, a 21 yo CSE Undergrad and a Novice in Android Development. I\'m currently an app development intern at applex.in.\nAlongside it, I\'m also a community contributor and app development lead at TheDevByte, a community of developers who love open-source and wish to contribute to the real world via our code.
+    </string>
+    <string name="ttt_desc">
+        A take on the classic "Naughts-and-Crosses" game, with different gameplay modes, modern UI and graphics, and a dark theme.\n
+        <a href="https://github.com/sanskaru/TicTacToeXO">Click here to visit the project GitHub Repo.</a>
+    </string>
+    <string name="covi_desc">
+        A COVID19 tracker with all-India and statewise stats with a minimalistic UI.\n
+        <a href="https://github.com/sanskaru/CoV19Track">Click here to visit the project GitHub Repo.</a>
+    </string>
+
+    <string name="contact_me">This is my <a href="https://github.com/sanskaru">GitHub ID.</a>
+        \nKnow more about <a href="https://thedevbyte.tech">TheDevByte.</a>
+        \nConnect with me on <a href="https://www.linkedin.com/in/sanskaru090/">LinkedIn.</a>
+        \nFollow me on <a href="https://twitter.com/sannvict090">Twitter.</a>
+    </string>
+</resources>

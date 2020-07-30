@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/projparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/texxxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Projects"
+        android:background="@android:color/transparent"
+        android:textSize="30sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/covi"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/texxxt"
+        app:cardCornerRadius="8dp"
+        android:elevation="4dp"
+        android:layout_margin="10dp"
+        android:onClick="openBottomSheet"
+         >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/covi_demo_resized"
+            android:scaleType="centerCrop"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ttt"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="8dp"
+        android:elevation="4dp"
+        android:layout_below="@id/covi"
+        android:layout_margin="10dp"
+        android:onClick="openBottomSheet"
+        android:scaleType="centerCrop"
+         >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ttt_demo_image_resized"
+            android:scaleType="centerCrop"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
